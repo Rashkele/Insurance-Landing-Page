@@ -34,6 +34,14 @@ li {display: inline-block;}
 
 h1 {
     margin-bottom: 30px;
+    text-align: center;
+}
+header p {
+   line-height: 2em;
+   text-align: center;
+}
+.logo {
+margin-top: 10px;
 }
 
 .header-pic {
@@ -50,8 +58,6 @@ display: block;
 
 .View-plans {
     color: white;
-    /*height: 25px;
-    width: 90px;*/
     width: fit-content;
     display: block;
     border: white solid 2px;
