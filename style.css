@@ -62,13 +62,17 @@ width: 100%;
 display: block;
 }
 
-.header-text {
+.header-text, .bottom-part {
     color: white;
     background-color: var(--DarkViolet);
     padding: 50px 20px;
     position: relative;
 }
 
+.bottom-part {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
 .View-plans {
     color: white;
     width: fit-content;
@@ -89,7 +93,11 @@ display: block;
     right: 0;
     bottom: -60%;
 }
-
+.waves-bottom-right {
+    position: absolute;
+    right: 0;
+    top:0; 
+}
 main {
     position: relative;
 }
