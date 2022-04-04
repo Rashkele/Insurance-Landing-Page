@@ -20,11 +20,59 @@ body {
 
 }
 
-@media only screen and (max-width: 1439px) {
-nav {display: none;}
+@media only screen and (max-width: 999px) {
+ul {display: none;
+}}
+
+nav   {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
 }
 
-@media only screen and (min-width: 1440px) {
+li {display: inline-block;}
 
-
+h1 {
+    margin-bottom: 30px;
 }
+
+.header-pic {
+width: 100%;
+display: block;
+}
+
+.header-text {
+    color: white;
+    background-color: var(--DarkViolet);
+    padding: 50px 20px;
+    position: relative;
+}
+
+.View-plans {
+    color: white;
+    /*height: 25px;
+    width: 90px;*/
+    width: fit-content;
+    display: block;
+    border: white solid 2px;
+    padding: 10px;
+    text-decoration: none;
+    margin: 20px auto;
+}
+.waves-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.waves-right {
+    position: absolute;
+    right: 0;
+    bottom: -60%;
+}
+
+/*@media only screen and (min-width: 1000px) {
+
+}*/
+
+
