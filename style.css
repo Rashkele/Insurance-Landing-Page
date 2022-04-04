@@ -16,15 +16,16 @@ padding: 0;}
 body {
     font-size: 16px;
     font-family: 'DM Serif Display', serif;
-    font-family: 'Karla', sans-serif;
+    
 
 }
+p {font-family: 'Karla', sans-serif;}
 
 @media only screen and (max-width: 999px) {
 ul {display: none;
 }}
 
-nav   {
+nav {
     display: flex;
     padding: 10px;
     justify-content: space-between;
@@ -32,13 +33,25 @@ nav   {
 
 li {display: inline-block;}
 
-h1 {
+h1, h2 {
     margin-bottom: 30px;
     text-align: center;
+    font-weight: 400;
+    }
+
+h2 {
+    margin-top: 30px;
 }
+
+
 header p {
    line-height: 2em;
    text-align: center;
+}
+
+main p {
+    color: var(--DarkGrayishViolet);
+    text-align: center;
 }
 .logo {
 margin-top: 10px;
@@ -61,7 +74,7 @@ display: block;
     width: fit-content;
     display: block;
     border: white solid 2px;
-    padding: 10px;
+    padding: 10px 15px;
     text-decoration: none;
     margin: 20px auto;
 }
@@ -76,6 +89,30 @@ display: block;
     right: 0;
     bottom: -60%;
 }
+
+main {
+    position: relative;
+}
+
+
+div.line {
+    width: 50%;
+    height: 2px;
+    background-color: var(--DarkGrayishViolet);
+    margin: 200px auto 50px;
+    }
+
+    
+    .icon img {
+        display: block;
+        margin: 0 auto 20px;
+        width:50px;
+
+    }
+
+    div.container {
+        padding: 0 20px;
+    margin-bottom: 40px;}
 
 /*@media only screen and (min-width: 1000px) {
 
