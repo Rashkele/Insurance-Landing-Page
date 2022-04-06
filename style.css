@@ -12,14 +12,18 @@ padding: 0;}
     --DarkGrayishViolet: hsl(273, 4%, 51%);
     --VeryLightGray: hsl(0, 0%, 98%);
 }
+header {
+    font-family: 'DM Serif Display', serif;
+}
 
 body {
     font-size: 16px;
-    font-family: 'DM Serif Display', serif;
+    font-family: 'Karla', sans-serif;
+}
+    
     
 
-}
-p {font-family: 'Karla', sans-serif;}
+
 
 @media only screen and (max-width: 999px) {
 ul {display: none;
